@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Cinzel|Cinzel+Decorative' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js.js"></script>
+    <title>Welcome to Triple J Catering!</title>
+</head>
+<body>
+    <script> window.onload = function() {
+        timeouts = [];
+        timers = [];
+        fading = '';
+        index = 0;
+        index1 = 0;
+        index2 = 0;
+        index3 = 0;
+        fadeIn('img1');
+        fadeIn('img2');
+        fadeIn('img3');
+        document.getElementById('text1Box').className =
+            document.getElementById('text1Box').className.replace( /(?:^|\s)NiceLightBlue(?!\S)/g , '' )
+        document.getElementById('text2Box').className =
+            document.getElementById('text2Box').className.replace( /(?:^|\s)NiceGreen(?!\S)/g , '' )
+        document.getElementById('text3Box').className =
+        document.getElementById('text3Box').className.replace( /(?:^|\s)NiceRed(?!\S)/g , '' )
+        document.getElementById('img1').style.backgroundImage="url('photos/wedding/"+(index1+1)+".jpg')";
+        document.getElementById('img2').style.backgroundImage="url('photos/specialEvents/"+(index2+1)+".jpg')";
+        document.getElementById('img3').style.backgroundImage="url('photos/corporateEvents/"+(index3+1)+".jpg')";
+        window.setTimeout(function(){timers.push(setInterval(function(){timing_func()}, 4000))}, 2000)
+    };
+    </script>
+    <div id="wrapper">
+        <div id="header">
+            <div id="logo">
+                <a href="index.html">Triple J Catering</a>
+            </div>
+            <div>
+                <ul>
+                    <a href="about.html"><li>About Us</li></a>
+                    <a href="pricing.html"><li>Pricing</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                <ul>
+            </div>
+        </div>
+        <div id="content">
+            <a href="events.html">
+                <div id="photo1" onmouseover="entered('photo1')" onmouseout="reset('photo1')">
+                    <div id='img1'>
+                    </div>
+                    <div id="text1Box"><div id="text1">Weddings</div></div>
+                </div>
+            </a>
+            <a href="events.html">
+                <div id="photo2" onmouseover="entered('photo2')" onmouseout="reset('photo2')">
+                    <div id='img2'>
+                    </div>
+                    <div id="text2Box"><div id="text2">Special Events</div></div>
+                </div>
+            </a>
+            <a href="events.html">
+                <div id="photo3" onmouseover="entered('photo3')" onmouseout="reset('photo3')">
+                    <div id='img3'>
+                    </div>
+                    <div id="text3Box"><div id="text3">Corporate Catering</div></div>
+                </div>
+            </a>
+        </div>
+        <div id="footer">
+            <div id="footerText">
+                <ul>
+                    <li>Triple J Catering</li>
+                    <li>PO Box 981, Galt, CA 95632</li>
+                    <li>(916) 642-2400</li>
+                    <a href="contact.html"><li>Contact</li></a>
+                    <li class="lastElement">Site By: <a href="http://www.jeremyhines.com">Jeremy Hines</a></li>
+                <ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

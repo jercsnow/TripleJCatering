@@ -1,0 +1,283 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    font-family: 'Cinzel', serif;
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-radial-gradient(center, ellipse farthest-side, #FDFAF7 0%, #E3D4C3 100%);
+    /* Mozilla Firefox */ 
+    background-image: -moz-radial-gradient(center, ellipse farthest-side, #FDFAF7 0%, #E3D4C3 100%);
+    /* Opera */ 
+    background-image: -o-radial-gradient(center, ellipse farthest-side, #FDFAF7 0%, #E3D4C3 100%);
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(radial, center center, 0, center center, 441, color-stop(0, #FDFAF7), color-stop(1, #E3D4C3));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-radial-gradient(center, ellipse farthest-side, #FDFAF7 0%, #E3D4C3 100%);
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: radial-gradient(ellipse farthest-side at center, #FDFAF7 0%, #E3D4C3 100%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.NiceLightBlue, .NiceGreen, .NiceRed {
+    border: 1px solid #9C8F80;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 1px #F8E4CC;
+    -moz-box-shadow: 0 0 1px #F8E4CC;
+    box-shadow: 0 0 1px #F8E4CC;
+}
+
+.NiceLightBlue #text1, .NiceGreen #text2, .NiceRed #text3 {
+    color: #fff;
+}
+
+.NiceLightBlue {
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-radial-gradient(center, ellipse farthest-corner, #C2EBFF 0%, #58BDEF 100%);
+    /* Mozilla Firefox */ 
+    background-image: -moz-radial-gradient(center, ellipse farthest-corner, #C2EBFF 0%, #58BDEF 100%);
+    /* Opera */ 
+    background-image: -o-radial-gradient(center, ellipse farthest-corner, #C2EBFF 0%, #58BDEF 100%);
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #C2EBFF), color-stop(1, #58BDEF));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #C2EBFF 0%, #58BDEF 100%);
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: radial-gradient(ellipse farthest-corner at center, #C2EBFF 0%, #58BDEF 100%);
+}
+
+.NiceGreen {
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-radial-gradient(center, ellipse farthest-corner, #00FF22 0%, #00D41C 100%);
+    /* Mozilla Firefox */ 
+    background-image: -moz-radial-gradient(center, ellipse farthest-corner, #00FF22 0%, #00D41C 100%);
+    /* Opera */ 
+    background-image: -o-radial-gradient(center, ellipse farthest-corner, #00FF22 0%, #00D41C 100%);
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #00FF22), color-stop(1, #00D41C));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #00FF22 0%, #00D41C 100%);
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: radial-gradient(ellipse farthest-corner at center, #00FF22 0%, #00D41C 100%);
+}
+
+.NiceRed {
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-radial-gradient(center, ellipse farthest-corner, #FF7070 0%, #BC3737 100%);
+    /* Mozilla Firefox */ 
+    background-image: -moz-radial-gradient(center, ellipse farthest-corner, #FF7070 0%, #BC3737 100%);
+    /* Opera */ 
+    background-image: -o-radial-gradient(center, ellipse farthest-corner, #FF7070 0%, #BC3737 100%);
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(radial, center center, 0, center center, 450, color-stop(0, #FF7070), color-stop(1, #BC3737));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #FF7070 0%, #BC3737 100%);
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: radial-gradient(ellipse farthest-corner at center, #FF7070 0%, #BC3737 100%);
+}
+
+#wrapper {
+    min-height:100%;
+    position:relative;
+}
+
+#header {
+    width: 100%;
+    min-width: 900px;
+    background: #E3D1BB;
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top, #E3D1BB 0%, #9C8F80 100%);
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #E3D1BB 0%, #9C8F80 100%);
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #E3D1BB 0%, #9C8F80 100%);
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #E3D1BB), color-stop(1, #9C8F80));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #E3D1BB 0%, #9C8F80 100%);
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom, #E3D1BB 0%, #9C8F80 100%);
+    font-size: 1.1em;
+    height: 50px;
+    line-height: 60px;
+    margin: 0 auto 1.0em auto;
+    padding: 0;
+    text-align: center;
+    float: left;
+}
+
+#logo a {
+    float: left;
+    padding-left: 100px;
+    color: #F8E4CC;
+    font-size: 30px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#header ul {list-style: none; margin: 0 auto;}
+#header li {float: left; display: inline; margin: 0;}
+
+#header ul a:link, #header ul a:visited {
+    display: inline-block;
+    height: 40px;
+    padding: 5px 1.0em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#header ul a:hover, #header ul a:active,
+#header .active ul a:link, #header .active ul a:visited {
+    color: #9C8F80;
+    text-shadow: none !important;
+    background-image: linear-gradient(top, #E3D1BB 30%, #f1e8dd 100%);
+    background-image: -o-linear-gradient(top, #E3D1BB 30%, #f1e8dd 100%);
+    background-image: -moz-linear-gradient(top, #E3D1BB 30%, #f1e8dd 100%);
+    background-image: -webkit-linear-gradient(top, #E3D1BB 30%, #f1e8dd 100%);
+    background-image: -ms-linear-gradient(top, #E3D1BB 30%, #f1e8dd 100%);
+}
+
+#content {
+    padding-top:200px;
+    padding-bottom:60px;   /* Height of the footer element */
+    width: 845px;
+    margin: auto auto;
+}
+
+#img1, #img2, #img3 {
+    width: 275px;
+    height: 275px;
+    background-position: center;
+    /* Make the background image cover the area of the <div>, and clip the excess */
+    background-size: cover;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0px 4px 3px #000;
+    -webkit-box-shadow: 0px 4px 3px #000;
+    box-shadow: 0px 4px 3px #000;
+    margin-bottom: 5px;
+}
+
+#photo1, #photo2, #photo3 {
+    float: left;
+    padding: 2px;
+}
+
+#text1, #text2, #text3 {
+    text-align: center;
+    margin: auto auto;
+    font-size: 20px;
+    color: #9C8F80;
+}
+
+#text1Box, #text2Box, #text3Box {
+    padding: 10px;
+}
+
+#footer {
+    width:100%;
+    height:60px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-radial-gradient(center, ellipse closest-corner, #F8E4CC 0%, #9C8F80 100%);
+    /* Mozilla Firefox */ 
+    background-image: -moz-radial-gradient(center, ellipse closest-corner, #F8E4CC 0%, #9C8F80 100%);
+    /* Opera */ 
+    background-image: -o-radial-gradient(center, ellipse closest-corner, #F8E4CC 0%, #9C8F80 100%);
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(radial, center center, 0, center center, 462, color-stop(0, #F8E4CC), color-stop(1, #9C8F80));
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-radial-gradient(center, ellipse closest-corner, #F8E4CC 0%, #9C8F80 100%);
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: radial-gradient(ellipse closest-corner at center, #F8E4CC 0%, #9C8F80 100%);
+}
+
+#footerText {
+    width: 870px;
+    margin: auto auto;
+    color: #7c7266;
+}
+
+#footerText a {
+    color: #FFF;
+}
+
+#footer ul {
+    list-style: none;
+}
+
+#footer li {
+    float: left;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 2px solid #94887a;
+}
+
+#footer .lastElement {
+    border-right: 0px;
+}
+
+#width {
+    width: 100%;
+    padding-top:100px;
+}
+
+#contact, #pricing, #about {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-family: 'Simonetta', cursive;
+    overflow: hidden;
+    width: 900px;
+    -webkit-box-shadow: 0 0 1em black;
+    -moz-box-shadow: 0 0 1em black;
+    box-shadow: 0 0 1em black;
+    margin: auto auto;
+    padding: 15px;
+    background: #F0F4EF;
+    border: solid 1px #ccc;
+    font-size: 22px;
+}
+
+#about {
+    text-indent: 25px;
+}
+
+#contact {
+    text-align: center;
+}
+
+#pricing {
+    text-align: center;
+}
+
+#momPic, #momPicH {
+    background-position: center;
+    /* Make the background image cover the area of the <div>, and clip the excess */
+    background-size: cover;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0px 4px 3px #000;
+    -webkit-box-shadow: 0px 4px 3px #000;
+    box-shadow: 0px 4px 3px #000;
+    margin-bottom: 5px;
+    float: left;
+    margin-right: 15px;
+}
+
+#momPic {
+    width: 205px;
+    height: 275px;
+}
+
+#momPicH {
+    width: 320px;
+    height: 240px;
+}
