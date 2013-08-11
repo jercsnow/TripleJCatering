@@ -83,6 +83,7 @@ a {
 #wrapper {
     min-height:100%;
     position:relative;
+    margin: 0 auto -70px;
 }
 
 #header {
@@ -132,15 +133,15 @@ a {
 #header .active ul a:link, #header .active ul a:visited {
     color: #9C8F80;
     text-shadow: none !important;
-    background-image: linear-gradient(top, #E3D1BB 30%, #f1e8dd 100%);
-    background-image: -o-linear-gradient(top, #E3D1BB 30%, #f1e8dd 100%);
-    background-image: -moz-linear-gradient(top, #E3D1BB 30%, #f1e8dd 100%);
-    background-image: -webkit-linear-gradient(top, #E3D1BB 30%, #f1e8dd 100%);
-    background-image: -ms-linear-gradient(top, #E3D1BB 30%, #f1e8dd 100%);
+    background-image: linear-gradient(top, #E3D1BB 50%, #f1e8dd 100%);
+    background-image: -o-linear-gradient(top, #E3D1BB 50%, #f1e8dd 100%);
+    background-image: -moz-linear-gradient(top, #E3D1BB 50%, #f1e8dd 100%);
+    background-image: -webkit-linear-gradient(top, #E3D1BB 50%, #f1e8dd 100%);
+    background-image: -ms-linear-gradient(top, #E3D1BB 50%, #f1e8dd 100%);
 }
 
 #content {
-    padding-top:200px;
+    padding-top:100px;
     padding-bottom:60px;   /* Height of the footer element */
     width: 845px;
     margin: auto auto;
@@ -177,12 +178,13 @@ a {
     padding: 10px;
 }
 
-#footer {
+.footer, .push {
+    height:70px; /* .push must be the same height as .footer */
+}
+
+.footer {
+    min-width: 900px;
     width:100%;
-    height:60px;
-    position:absolute;
-    bottom:0;
-    left:0;
     /* IE10 Consumer Preview */ 
     background-image: -ms-radial-gradient(center, ellipse closest-corner, #F8E4CC 0%, #9C8F80 100%);
     /* Mozilla Firefox */ 
@@ -198,6 +200,7 @@ a {
 }
 
 #footerText {
+    padding-top: 10px;
     width: 870px;
     margin: auto auto;
     color: #7c7266;
@@ -207,11 +210,11 @@ a {
     color: #FFF;
 }
 
-#footer ul {
+.footer ul {
     list-style: none;
 }
 
-#footer li {
+.footer li {
     float: left;
     display: inline;
     padding-left: 10px;
@@ -219,7 +222,7 @@ a {
     border-right: 2px solid #94887a;
 }
 
-#footer .lastElement {
+.footer .lastElement {
     border-right: 0px;
 }
 
