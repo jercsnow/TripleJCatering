@@ -88,7 +88,7 @@ a {
 
 #header {
     width: 100%;
-    min-width: 900px;
+    min-width: 950px;
     background: #E3D1BB;
     /* IE10 Consumer Preview */ 
     background-image: -ms-linear-gradient(top, #E3D1BB 0%, #9C8F80 100%);
@@ -183,7 +183,7 @@ a {
 }
 
 .footer {
-    min-width: 900px;
+    min-width: 950px;
     width:100%;
     /* IE10 Consumer Preview */ 
     background-image: -ms-radial-gradient(center, ellipse closest-corner, #F8E4CC 0%, #9C8F80 100%);
