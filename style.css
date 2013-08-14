@@ -119,6 +119,11 @@ a {
     font-family: 'Cinzel Decorative', cursive;
 }
 
+#logo a:hover {
+    color: #fbf1e5;
+}
+
+
 #header ul {list-style: none; margin: 0 auto;}
 #header li {float: left; display: inline; margin: 0;}
 
@@ -143,7 +148,7 @@ a {
 #content {
     padding-top:100px;
     padding-bottom:60px;   /* Height of the footer element */
-    width: 845px;
+    width: 837px;
     margin: auto auto;
 }
 
@@ -185,6 +190,8 @@ a {
 .footer {
     min-width: 950px;
     width:100%;
+    z-index: 9999;
+    position: absolute;
     /* IE10 Consumer Preview */ 
     background-image: -ms-radial-gradient(center, ellipse closest-corner, #F8E4CC 0%, #9C8F80 100%);
     /* Mozilla Firefox */ 
