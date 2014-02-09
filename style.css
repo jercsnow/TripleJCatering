@@ -263,8 +263,24 @@ a {
     text-align: center;
 }
 
-#pricing {
-    text-align: center;
+.text {
+    float: right;
+    max-width: 620px;
+}
+
+#pricing h1, #about h1, #contact h1 {
+    margin: 0px;
+}
+
+#about p {
+    margin-top: 0px;
+}
+
+
+#pricing ul {
+    margin: 0px;
+    list-style: none;
+    padding-left: 10px;
 }
 
 #momPic, #momPicH {
@@ -283,8 +299,8 @@ a {
 }
 
 #momPic {
-    width: 205px;
-    height: 275px;
+    width: 250px;
+    height: 310px;
 }
 
 #momPicH {
